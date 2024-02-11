@@ -1,0 +1,52 @@
+{
+    "name": "saavyas-website",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@esbuild/win32-x64": "^0.17.15",
+        "@heroicons/react": "^2.0.16",
+        "@hookform/resolvers": "^2.9.11",
+        "firebase": "^9.18.0",
+        "flowbite": "^1.6.4",
+        "flowbite-react": "^0.4.2",
+        "parallax-js": "^3.1.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-hook-form": "^7.43.7",
+        "react-icons": "^4.8.0",
+        "react-router-dom": "^6.8.1",
+        "swiper": "^11.0.6",
+        "zod": "^3.21.4"
+    },
+    "scripts": {
+        "start": "vite --port 3000 --host",
+        "build": "vite build",
+        "preview": "vite preview --port 3001"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react": "^3.1.0",
+        "autoprefixer": "^10.4.14",
+        "esbuild": "^0.20.0",
+        "postcss": "^8.4.21",
+        "tailwindcss": "^3.2.7",
+        "vite": "^4.2.0"
+    }
+}

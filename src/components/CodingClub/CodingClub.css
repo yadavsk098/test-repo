@@ -1,0 +1,20 @@
+.heart {
+    animation: heart-beat .40s infinite alternate;
+    display: inline-flex;
+}
+
+@keyframes heart-beat {
+    from {
+        transform: scale(0.9);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .copyright p {
+        font-size: 15px;
+    }
+}

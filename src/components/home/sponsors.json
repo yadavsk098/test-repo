@@ -1,0 +1,68 @@
+{
+    "associate_sponsors": [
+      {
+        "logo": "https://picsum.photos/600/300",
+        "name": "Treasure Trove"
+      },
+      {
+        "logo": "https://picsum.photos/600/300",
+        "name": "Code Creations"
+      },
+      {
+        "logo": "https://picsum.photos/600/300",
+        "name": "SnapStitch"
+      },
+      {
+        "logo": "https://picsum.photos/600/300",
+        "name": "Sweet Street"
+      },
+      {
+        "logo": "https://picsum.photos/600/300",
+        "name": "Snap Street"
+      }
+    ],
+    "golden_sponsors": [
+      {
+        "logo": "https://picsum.photos/600/300",
+        "name": "Hues of Blues"
+      },
+      {
+        "logo": "https://picsum.photos/600/300",
+        "name": "Green Team"
+      },
+      {
+        "logo": "https://picsum.photos/600/300",
+        "name": "Blessed Rest"
+      },
+      {
+        "logo": "https://picsum.photos/600/300",
+        "name": "The Home Dome"
+      }
+    ],
+    "platinum_sponsors": [
+      {
+        "logo": "https://picsum.photos/600/300",
+        "name": "Star Square"
+      },
+      {
+        "logo": "https://picsum.photos/600/300",
+        "name": "East Elm"
+      },
+      {
+        "logo": "https://picsum.photos/600/300",
+        "name": "SunSide "
+      }
+    ],
+    "silver_sponsors": [
+      {
+        "logo": "https://picsum.photos/600/300",
+        "name": "Peak Performance"
+      }
+    ],
+    "title_sponsor": [
+      {
+        "logo": "https://picsum.photos/600/300",
+        "name": "BuyBusters"
+      }
+    ]
+  }

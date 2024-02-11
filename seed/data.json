@@ -1,0 +1,11 @@
+{
+    "events": [
+        {
+            "id": "e_001",
+            "contact": "+91 740051806",
+            "name": "Rought and Tough",
+            "description": "Event 1 Description",
+            "slug": "rough-and-tough"
+        }
+    ]
+}
