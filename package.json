@@ -3,7 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
-        "@esbuild/win32-x64": "^0.17.15",
+        
         "@heroicons/react": "^2.0.16",
         "@hookform/resolvers": "^2.9.11",
         "firebase": "^9.18.0",
