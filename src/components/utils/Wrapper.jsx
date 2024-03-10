@@ -30,7 +30,7 @@ function Wrapper({ children, text = "Sea Shore Soiree" }) {
                     }}
                     autoplay
                 ></lottie-player> */}
-                <video src="./maingif.mp4" loop autoPlay muted className='object-cover absolute h-screen w-screen -z-10 top-0 left-0'></video>
+                {/* <video src="./maingif.mp4" loop autoPlay muted className='object-cover absolute h-screen w-screen -z-10 top-0 left-0'></video> */}
 
                 <div className=" z-[1] absolute flex h-[80vh] justify-center items-center text-left text-4xl md:text-6xl p-[20px] h-80 font-lostfish pt-[200px] md:pt-[400px] text-left md:w-full">
                     {mytext}

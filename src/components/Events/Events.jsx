@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import EventCard from "../utils/cards/EventCard";
-import { GetDetailsOfEndPoint } from "../firebase/realtimeDb";
+import { GetDetailsOfEndPoint } from "../firebase/realtimeDb.js";
 import Techinical from "../Techinal/Techinical.jsx";
 
 const Events = ({ settext }) => {

@@ -16,8 +16,25 @@ import Wrapper from "./components/utils/Wrapper";
 import { useState } from "react";
 import CodingClub from "./components/CodingClub/CodingClub";
 
+import SignUpForm from "./components/Authentication/SignUp/SignUpForm";
+import LoginForm from "./components/Authentication/Login/LoginForm";
+
+
+
 function App() {
     let [text, settext] = useState("Sea Shore Soiree");
+
+    const [isAuthenticated, setIsAuthenticated] = useState(false);
+    const handleLogin = () => {
+        // Perform login logic (you may use a function from your AuthContext)
+        setIsAuthenticated(true);
+    };
+
+    const handleLogout = () => {
+        // Perform logout logic (you may use a function from your AuthContext)
+        setIsAuthenticated(false);
+    };
+
     return (
         <BrowserRouter>
             <div className="App font-poppins flex flex-col min-h-screen">
@@ -34,6 +51,14 @@ function App() {
                             <Route path="*" element={<Error404 settext={settext} />} />
                             <Route path="events" element={<Events settext={settext} />} />
                             {/* <Route path="events/register" element={<EventRegister />} /> */}
+                            <Route
+                                path="login"
+                                element={<LoginForm handleLogin={handleLogin} isAuthenticated={isAuthenticated} />}
+                            />
+                            <Route
+                                path="signup"
+                                element={<SignUpForm handleLogin={handleLogin} isAuthenticated={isAuthenticated} />}
+                            />
                             <Route
                                 path="events/:category/:eventId"
                                 element={<EventDetail settext={settext} />}

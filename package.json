@@ -3,10 +3,9 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
-        
         "@heroicons/react": "^2.0.16",
         "@hookform/resolvers": "^2.9.11",
-        "firebase": "^9.18.0",
+        "firebase": "^9.23.0",
         "flowbite": "^1.6.4",
         "flowbite-react": "^0.4.2",
         "parallax-js": "^3.1.0",
